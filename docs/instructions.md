@@ -331,3 +331,44 @@ When asked to produce an implementation plan for a project matching this pattern
 8. **Immediate next steps** — the 5–7 actions needed right now to unblock Phase 1.
 
 Checkbox states: `[ ]` not started · `[~]` in progress · `[x]` complete.
+
+---
+
+## 16. PWA home-screen readiness template (Android-first)
+
+When users should install the website to the Android home screen, treat this as a required deliverable, not optional polish.
+
+**Required output:**
+- A valid `manifest.webmanifest` with install metadata.
+- High-resolution app icons (minimum `192x192` and `512x512`).
+- Maskable icons (`purpose: maskable`) for adaptive launcher shapes.
+- A standalone display mode (`display: 'standalone'`) and explicit `theme_color` / `background_color` for splash screen quality.
+- Metadata wiring so the manifest is discoverable from all pages.
+
+**Implementation baseline (Next.js App Router):**
+- Add `app/manifest.ts` (or a static `public/manifest.webmanifest`) and include:
+  - `name`, `short_name`, `description`
+  - `start_url`, `scope`
+  - `display: 'standalone'`
+  - `orientation` (set to app intent, e.g. `'portrait'`)
+  - `theme_color`, `background_color`
+  - `icons` array with both regular and maskable PNGs
+- Add `metadata.manifest = '/manifest.webmanifest'` in root layout metadata.
+- Provide an Apple touch icon (`180x180`) for cross-platform install polish.
+
+**Asset quality rules:**
+- Icons must be sharp at 192 and 512 with no visible blur.
+- Do not up-scale tiny source logos; generate vector-first or redraw assets at target sizes.
+- Include mask-safe padding for maskable icons so critical artwork is not clipped by circles/squircles.
+- Keep strong foreground/background contrast in both light and dark launch contexts.
+
+**Validation checklist (must pass before merge):**
+- `manifest.webmanifest` is reachable in production output.
+- All icon URLs resolve with HTTP 200.
+- Chrome DevTools > Application > Manifest shows no errors/warnings.
+- Add-to-home-screen produces branded icon and standalone window.
+- Android splash screen uses expected colors and icon, not a generic browser icon.
+
+**Agent behavior requirement:**
+- If the user asks for home-screen install quality, always implement this full checklist by default.
+- If any item cannot be implemented with available tools, state the blocker and propose the exact fallback.

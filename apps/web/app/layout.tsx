@@ -34,6 +34,7 @@ const themeScript = `
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://tax.hubs.dpdns.org'),
+  manifest: '/manifest.webmanifest',
   title: {
     default: siteConfig.seo.siteTitle,
     template: '%s | tax.hubs.dpdns.org',
@@ -65,7 +66,13 @@ export const metadata: Metadata = {
   icons: {
     icon: siteConfig.brand.favicon,
     shortcut: siteConfig.brand.favicon,
-    apple: siteConfig.brand.favicon,
+    apple: [
+      {
+        url: '/assets/brand/pwa/apple-touch-icon.png',
+        sizes: '180x180',
+        type: 'image/png',
+      },
+    ],
   },
 };
 
