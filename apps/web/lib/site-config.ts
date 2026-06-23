@@ -2,7 +2,7 @@ export const siteConfig = {
   brand: {
     logo: '/assets/brand/logo.png',
     logoDark: '/assets/brand/logo-dark.png',
-    banner: '/assets/brand/banner.png',
+    banner: '/assets/brand/banner.svg',
     favicon: '/assets/brand/favicon.ico',
   },
   navigation: {

@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 
 type TrendPoint = {
   year: string;
@@ -42,12 +42,35 @@ export function PreviousYearsTaxSparkline({
   locale,
 }: PreviousYearsTaxSparklineProps) {
   const [hoveredYear, setHoveredYear] = useState<string | null>(null);
+  const [containerWidth, setContainerWidth] = useState(360);
+  const chartHostRef = useRef<HTMLDivElement | null>(null);
+
+  useEffect(() => {
+    const host = chartHostRef.current;
+    if (!host) {
+      return;
+    }
+
+    const updateWidth = () => {
+      setContainerWidth(Math.max(320, Math.floor(host.clientWidth)));
+    };
+
+    updateWidth();
+
+    const observer = new ResizeObserver(updateWidth);
+    observer.observe(host);
+
+    return () => observer.disconnect();
+  }, []);
 
   const safePoints = points.length > 0 ? points : [{ year: '', monthlyTax: 0 }];
 
-  const chartWidth = 860;
-  const chartHeight = 280;
-  const margin = { top: 16, right: 16, bottom: 68, left: 72 };
+  const chartWidth = Math.max(320, containerWidth);
+  const chartHeight = chartWidth < 420 ? 330 : 300;
+  const margin =
+    chartWidth < 420
+      ? { top: 14, right: 14, bottom: 82, left: 58 }
+      : { top: 16, right: 16, bottom: 70, left: 72 };
   const innerWidth = chartWidth - margin.left - margin.right;
   const innerHeight = chartHeight - margin.top - margin.bottom;
   const minValue = Math.min(...safePoints.map((point) => point.monthlyTax));
@@ -91,10 +114,13 @@ export function PreviousYearsTaxSparkline({
         </div>
       </div>
 
-      <div className="relative mt-3 overflow-hidden rounded-input border border-border bg-surface-muted p-2 sm:p-3">
+      <div
+        ref={chartHostRef}
+        className="relative mt-3 overflow-hidden rounded-input border border-border bg-surface-muted p-2 sm:p-3"
+      >
         <svg
           viewBox={`0 0 ${chartWidth} ${chartHeight}`}
-          className="h-52 w-full sm:h-56 md:h-64 lg:h-72"
+          className="h-[18rem] w-full sm:h-[19rem] md:h-72"
           role="img"
           aria-label="Monthly tax trend across previous fiscal years"
         >
