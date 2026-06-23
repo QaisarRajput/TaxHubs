@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "lint": "corepack pnpm --filter @tax/schema build && tsc -p tsconfig.json --noEmit",
-    "validate": "node dist/validate.js",
+    "validate": "corepack pnpm --filter @tax/schema build && tsc -p tsconfig.json && node dist/validate.js",
     "test": "vitest run src/validate.test.ts --passWithNoTests"
   },
   "dependencies": {
