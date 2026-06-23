@@ -1,0 +1,1166 @@
+{
+  "country": "IN",
+  "currency": "INR",
+  "currencySymbol": "₹",
+  "locale": "en-IN",
+  "years": [
+    {
+      "country": "IN",
+      "fiscalYear": "2025-2026",
+      "currency": "INR",
+      "defaultRegime": "new",
+      "regimes": [
+        {
+          "id": "new",
+          "label": "New Regime",
+          "slabs": [
+            {
+              "min": 0,
+              "max": 300000,
+              "rate": 0,
+              "fixedAmount": 0
+            },
+            {
+              "min": 300000,
+              "max": 700000,
+              "rate": 0.05,
+              "fixedAmount": 0
+            },
+            {
+              "min": 700000,
+              "max": 1000000,
+              "rate": 0.1,
+              "fixedAmount": 20000
+            },
+            {
+              "min": 1000000,
+              "max": 1200000,
+              "rate": 0.15,
+              "fixedAmount": 50000
+            },
+            {
+              "min": 1200000,
+              "max": 1500000,
+              "rate": 0.2,
+              "fixedAmount": 80000
+            },
+            {
+              "min": 1500000,
+              "max": null,
+              "rate": 0.3,
+              "fixedAmount": 140000
+            }
+          ],
+          "standardDeduction": 75000,
+          "surcharge": [
+            {
+              "threshold": 5000000,
+              "rate": 0.1
+            },
+            {
+              "threshold": 10000000,
+              "rate": 0.15
+            },
+            {
+              "threshold": 20000000,
+              "rate": 0.25
+            },
+            {
+              "threshold": 50000000,
+              "rate": 0.37
+            }
+          ],
+          "rebate87A": {
+            "maxIncome": 1200000,
+            "amount": 60000
+          },
+          "cess": 0.04
+        },
+        {
+          "id": "old",
+          "label": "Old Regime",
+          "slabs": [
+            {
+              "min": 0,
+              "max": 250000,
+              "rate": 0,
+              "fixedAmount": 0
+            },
+            {
+              "min": 250000,
+              "max": 500000,
+              "rate": 0.05,
+              "fixedAmount": 0
+            },
+            {
+              "min": 500000,
+              "max": 1000000,
+              "rate": 0.2,
+              "fixedAmount": 12500
+            },
+            {
+              "min": 1000000,
+              "max": null,
+              "rate": 0.3,
+              "fixedAmount": 112500
+            }
+          ],
+          "standardDeduction": 50000,
+          "surcharge": [
+            {
+              "threshold": 5000000,
+              "rate": 0.1
+            },
+            {
+              "threshold": 10000000,
+              "rate": 0.15
+            },
+            {
+              "threshold": 20000000,
+              "rate": 0.25
+            },
+            {
+              "threshold": 50000000,
+              "rate": 0.37
+            }
+          ],
+          "rebate87A": {
+            "maxIncome": 500000,
+            "amount": 12500
+          },
+          "cess": 0.04
+        }
+      ]
+    },
+    {
+      "country": "IN",
+      "fiscalYear": "2024-2025",
+      "currency": "INR",
+      "defaultRegime": "new",
+      "regimes": [
+        {
+          "id": "new",
+          "label": "New Regime",
+          "slabs": [
+            {
+              "min": 0,
+              "max": 300000,
+              "rate": 0,
+              "fixedAmount": 0
+            },
+            {
+              "min": 300000,
+              "max": 700000,
+              "rate": 0.05,
+              "fixedAmount": 0
+            },
+            {
+              "min": 700000,
+              "max": 1000000,
+              "rate": 0.1,
+              "fixedAmount": 20000
+            },
+            {
+              "min": 1000000,
+              "max": 1200000,
+              "rate": 0.15,
+              "fixedAmount": 50000
+            },
+            {
+              "min": 1200000,
+              "max": 1500000,
+              "rate": 0.2,
+              "fixedAmount": 80000
+            },
+            {
+              "min": 1500000,
+              "max": null,
+              "rate": 0.3,
+              "fixedAmount": 140000
+            }
+          ],
+          "standardDeduction": 75000,
+          "surcharge": [
+            {
+              "threshold": 5000000,
+              "rate": 0.1
+            },
+            {
+              "threshold": 10000000,
+              "rate": 0.15
+            },
+            {
+              "threshold": 20000000,
+              "rate": 0.25
+            },
+            {
+              "threshold": 50000000,
+              "rate": 0.37
+            }
+          ],
+          "rebate87A": {
+            "maxIncome": 700000,
+            "amount": 25000
+          },
+          "cess": 0.04
+        },
+        {
+          "id": "old",
+          "label": "Old Regime",
+          "slabs": [
+            {
+              "min": 0,
+              "max": 250000,
+              "rate": 0,
+              "fixedAmount": 0
+            },
+            {
+              "min": 250000,
+              "max": 500000,
+              "rate": 0.05,
+              "fixedAmount": 0
+            },
+            {
+              "min": 500000,
+              "max": 1000000,
+              "rate": 0.2,
+              "fixedAmount": 12500
+            },
+            {
+              "min": 1000000,
+              "max": null,
+              "rate": 0.3,
+              "fixedAmount": 112500
+            }
+          ],
+          "standardDeduction": 50000,
+          "surcharge": [
+            {
+              "threshold": 5000000,
+              "rate": 0.1
+            },
+            {
+              "threshold": 10000000,
+              "rate": 0.15
+            },
+            {
+              "threshold": 20000000,
+              "rate": 0.25
+            },
+            {
+              "threshold": 50000000,
+              "rate": 0.37
+            }
+          ],
+          "rebate87A": {
+            "maxIncome": 500000,
+            "amount": 12500
+          },
+          "cess": 0.04
+        }
+      ]
+    },
+    {
+      "country": "IN",
+      "fiscalYear": "2023-2024",
+      "currency": "INR",
+      "defaultRegime": "new",
+      "regimes": [
+        {
+          "id": "new",
+          "label": "New Regime",
+          "slabs": [
+            {
+              "min": 0,
+              "max": 300000,
+              "rate": 0,
+              "fixedAmount": 0
+            },
+            {
+              "min": 300000,
+              "max": 600000,
+              "rate": 0.05,
+              "fixedAmount": 0
+            },
+            {
+              "min": 600000,
+              "max": 900000,
+              "rate": 0.1,
+              "fixedAmount": 15000
+            },
+            {
+              "min": 900000,
+              "max": 1200000,
+              "rate": 0.15,
+              "fixedAmount": 45000
+            },
+            {
+              "min": 1200000,
+              "max": 1500000,
+              "rate": 0.2,
+              "fixedAmount": 90000
+            },
+            {
+              "min": 1500000,
+              "max": null,
+              "rate": 0.3,
+              "fixedAmount": 150000
+            }
+          ],
+          "standardDeduction": 50000,
+          "surcharge": [
+            {
+              "threshold": 5000000,
+              "rate": 0.1
+            },
+            {
+              "threshold": 10000000,
+              "rate": 0.15
+            },
+            {
+              "threshold": 20000000,
+              "rate": 0.25
+            },
+            {
+              "threshold": 50000000,
+              "rate": 0.37
+            }
+          ],
+          "rebate87A": {
+            "maxIncome": 700000,
+            "amount": 25000
+          },
+          "cess": 0.04
+        },
+        {
+          "id": "old",
+          "label": "Old Regime",
+          "slabs": [
+            {
+              "min": 0,
+              "max": 250000,
+              "rate": 0,
+              "fixedAmount": 0
+            },
+            {
+              "min": 250000,
+              "max": 500000,
+              "rate": 0.05,
+              "fixedAmount": 0
+            },
+            {
+              "min": 500000,
+              "max": 1000000,
+              "rate": 0.2,
+              "fixedAmount": 12500
+            },
+            {
+              "min": 1000000,
+              "max": null,
+              "rate": 0.3,
+              "fixedAmount": 112500
+            }
+          ],
+          "standardDeduction": 50000,
+          "surcharge": [
+            {
+              "threshold": 5000000,
+              "rate": 0.1
+            },
+            {
+              "threshold": 10000000,
+              "rate": 0.15
+            },
+            {
+              "threshold": 20000000,
+              "rate": 0.25
+            },
+            {
+              "threshold": 50000000,
+              "rate": 0.37
+            }
+          ],
+          "rebate87A": {
+            "maxIncome": 500000,
+            "amount": 12500
+          },
+          "cess": 0.04
+        }
+      ]
+    },
+    {
+      "country": "IN",
+      "fiscalYear": "2022-2023",
+      "currency": "INR",
+      "defaultRegime": "old",
+      "regimes": [
+        {
+          "id": "old",
+          "label": "Old Regime",
+          "slabs": [
+            {
+              "min": 0,
+              "max": 250000,
+              "rate": 0,
+              "fixedAmount": 0
+            },
+            {
+              "min": 250000,
+              "max": 500000,
+              "rate": 0.05,
+              "fixedAmount": 0
+            },
+            {
+              "min": 500000,
+              "max": 1000000,
+              "rate": 0.2,
+              "fixedAmount": 12500
+            },
+            {
+              "min": 1000000,
+              "max": null,
+              "rate": 0.3,
+              "fixedAmount": 112500
+            }
+          ],
+          "standardDeduction": 50000,
+          "surcharge": [
+            {
+              "threshold": 5000000,
+              "rate": 0.1
+            },
+            {
+              "threshold": 10000000,
+              "rate": 0.15
+            },
+            {
+              "threshold": 20000000,
+              "rate": 0.25
+            },
+            {
+              "threshold": 50000000,
+              "rate": 0.37
+            }
+          ],
+          "rebate87A": {
+            "maxIncome": 500000,
+            "amount": 12500
+          },
+          "cess": 0.04
+        },
+        {
+          "id": "new",
+          "label": "New Regime",
+          "slabs": [
+            {
+              "min": 0,
+              "max": 250000,
+              "rate": 0,
+              "fixedAmount": 0
+            },
+            {
+              "min": 250000,
+              "max": 500000,
+              "rate": 0.05,
+              "fixedAmount": 0
+            },
+            {
+              "min": 500000,
+              "max": 750000,
+              "rate": 0.1,
+              "fixedAmount": 12500
+            },
+            {
+              "min": 750000,
+              "max": 1000000,
+              "rate": 0.15,
+              "fixedAmount": 37500
+            },
+            {
+              "min": 1000000,
+              "max": 1250000,
+              "rate": 0.2,
+              "fixedAmount": 75000
+            },
+            {
+              "min": 1250000,
+              "max": 1500000,
+              "rate": 0.25,
+              "fixedAmount": 125000
+            },
+            {
+              "min": 1500000,
+              "max": null,
+              "rate": 0.3,
+              "fixedAmount": 187500
+            }
+          ],
+          "standardDeduction": 50000,
+          "surcharge": [
+            {
+              "threshold": 5000000,
+              "rate": 0.1
+            },
+            {
+              "threshold": 10000000,
+              "rate": 0.15
+            },
+            {
+              "threshold": 20000000,
+              "rate": 0.25
+            },
+            {
+              "threshold": 50000000,
+              "rate": 0.37
+            }
+          ],
+          "rebate87A": {
+            "maxIncome": 500000,
+            "amount": 12500
+          },
+          "cess": 0.04
+        }
+      ]
+    },
+    {
+      "country": "IN",
+      "fiscalYear": "2021-2022",
+      "currency": "INR",
+      "defaultRegime": "old",
+      "regimes": [
+        {
+          "id": "old",
+          "label": "Old Regime",
+          "slabs": [
+            {
+              "min": 0,
+              "max": 250000,
+              "rate": 0,
+              "fixedAmount": 0
+            },
+            {
+              "min": 250000,
+              "max": 500000,
+              "rate": 0.05,
+              "fixedAmount": 0
+            },
+            {
+              "min": 500000,
+              "max": 1000000,
+              "rate": 0.2,
+              "fixedAmount": 12500
+            },
+            {
+              "min": 1000000,
+              "max": null,
+              "rate": 0.3,
+              "fixedAmount": 112500
+            }
+          ],
+          "standardDeduction": 50000,
+          "surcharge": [
+            {
+              "threshold": 5000000,
+              "rate": 0.1
+            },
+            {
+              "threshold": 10000000,
+              "rate": 0.15
+            },
+            {
+              "threshold": 20000000,
+              "rate": 0.25
+            },
+            {
+              "threshold": 50000000,
+              "rate": 0.37
+            }
+          ],
+          "rebate87A": {
+            "maxIncome": 500000,
+            "amount": 12500
+          },
+          "cess": 0.04
+        },
+        {
+          "id": "new",
+          "label": "New Regime",
+          "slabs": [
+            {
+              "min": 0,
+              "max": 250000,
+              "rate": 0,
+              "fixedAmount": 0
+            },
+            {
+              "min": 250000,
+              "max": 500000,
+              "rate": 0.05,
+              "fixedAmount": 0
+            },
+            {
+              "min": 500000,
+              "max": 750000,
+              "rate": 0.1,
+              "fixedAmount": 12500
+            },
+            {
+              "min": 750000,
+              "max": 1000000,
+              "rate": 0.15,
+              "fixedAmount": 37500
+            },
+            {
+              "min": 1000000,
+              "max": 1250000,
+              "rate": 0.2,
+              "fixedAmount": 75000
+            },
+            {
+              "min": 1250000,
+              "max": 1500000,
+              "rate": 0.25,
+              "fixedAmount": 125000
+            },
+            {
+              "min": 1500000,
+              "max": null,
+              "rate": 0.3,
+              "fixedAmount": 187500
+            }
+          ],
+          "standardDeduction": 50000,
+          "surcharge": [
+            {
+              "threshold": 5000000,
+              "rate": 0.1
+            },
+            {
+              "threshold": 10000000,
+              "rate": 0.15
+            },
+            {
+              "threshold": 20000000,
+              "rate": 0.25
+            },
+            {
+              "threshold": 50000000,
+              "rate": 0.37
+            }
+          ],
+          "rebate87A": {
+            "maxIncome": 500000,
+            "amount": 12500
+          },
+          "cess": 0.04
+        }
+      ]
+    },
+    {
+      "country": "IN",
+      "fiscalYear": "2020-2021",
+      "currency": "INR",
+      "defaultRegime": "old",
+      "regimes": [
+        {
+          "id": "old",
+          "label": "Old Regime",
+          "slabs": [
+            {
+              "min": 0,
+              "max": 250000,
+              "rate": 0,
+              "fixedAmount": 0
+            },
+            {
+              "min": 250000,
+              "max": 500000,
+              "rate": 0.05,
+              "fixedAmount": 0
+            },
+            {
+              "min": 500000,
+              "max": 1000000,
+              "rate": 0.2,
+              "fixedAmount": 12500
+            },
+            {
+              "min": 1000000,
+              "max": null,
+              "rate": 0.3,
+              "fixedAmount": 112500
+            }
+          ],
+          "standardDeduction": 50000,
+          "surcharge": [
+            {
+              "threshold": 5000000,
+              "rate": 0.1
+            },
+            {
+              "threshold": 10000000,
+              "rate": 0.15
+            },
+            {
+              "threshold": 20000000,
+              "rate": 0.25
+            },
+            {
+              "threshold": 50000000,
+              "rate": 0.37
+            }
+          ],
+          "rebate87A": {
+            "maxIncome": 500000,
+            "amount": 12500
+          },
+          "cess": 0.04
+        },
+        {
+          "id": "new",
+          "label": "New Regime",
+          "slabs": [
+            {
+              "min": 0,
+              "max": 250000,
+              "rate": 0,
+              "fixedAmount": 0
+            },
+            {
+              "min": 250000,
+              "max": 500000,
+              "rate": 0.05,
+              "fixedAmount": 0
+            },
+            {
+              "min": 500000,
+              "max": 750000,
+              "rate": 0.1,
+              "fixedAmount": 12500
+            },
+            {
+              "min": 750000,
+              "max": 1000000,
+              "rate": 0.15,
+              "fixedAmount": 37500
+            },
+            {
+              "min": 1000000,
+              "max": 1250000,
+              "rate": 0.2,
+              "fixedAmount": 75000
+            },
+            {
+              "min": 1250000,
+              "max": 1500000,
+              "rate": 0.25,
+              "fixedAmount": 125000
+            },
+            {
+              "min": 1500000,
+              "max": null,
+              "rate": 0.3,
+              "fixedAmount": 187500
+            }
+          ],
+          "standardDeduction": 50000,
+          "surcharge": [
+            {
+              "threshold": 5000000,
+              "rate": 0.1
+            },
+            {
+              "threshold": 10000000,
+              "rate": 0.15
+            },
+            {
+              "threshold": 20000000,
+              "rate": 0.25
+            },
+            {
+              "threshold": 50000000,
+              "rate": 0.37
+            }
+          ],
+          "rebate87A": {
+            "maxIncome": 500000,
+            "amount": 12500
+          },
+          "cess": 0.04
+        }
+      ]
+    },
+    {
+      "country": "IN",
+      "fiscalYear": "2019-2020",
+      "currency": "INR",
+      "defaultRegime": "old",
+      "regimes": [
+        {
+          "id": "old",
+          "label": "Old Regime",
+          "slabs": [
+            {
+              "min": 0,
+              "max": 250000,
+              "rate": 0,
+              "fixedAmount": 0
+            },
+            {
+              "min": 250000,
+              "max": 500000,
+              "rate": 0.05,
+              "fixedAmount": 0
+            },
+            {
+              "min": 500000,
+              "max": 1000000,
+              "rate": 0.2,
+              "fixedAmount": 12500
+            },
+            {
+              "min": 1000000,
+              "max": null,
+              "rate": 0.3,
+              "fixedAmount": 112500
+            }
+          ],
+          "standardDeduction": 50000,
+          "surcharge": [
+            {
+              "threshold": 5000000,
+              "rate": 0.1
+            },
+            {
+              "threshold": 10000000,
+              "rate": 0.15
+            },
+            {
+              "threshold": 20000000,
+              "rate": 0.25
+            },
+            {
+              "threshold": 50000000,
+              "rate": 0.37
+            }
+          ],
+          "rebate87A": {
+            "maxIncome": 500000,
+            "amount": 12500
+          },
+          "cess": 0.04
+        }
+      ]
+    },
+    {
+      "country": "IN",
+      "fiscalYear": "2018-2019",
+      "currency": "INR",
+      "defaultRegime": "old",
+      "regimes": [
+        {
+          "id": "old",
+          "label": "Old Regime",
+          "slabs": [
+            {
+              "min": 0,
+              "max": 250000,
+              "rate": 0,
+              "fixedAmount": 0
+            },
+            {
+              "min": 250000,
+              "max": 500000,
+              "rate": 0.05,
+              "fixedAmount": 0
+            },
+            {
+              "min": 500000,
+              "max": 1000000,
+              "rate": 0.2,
+              "fixedAmount": 12500
+            },
+            {
+              "min": 1000000,
+              "max": null,
+              "rate": 0.3,
+              "fixedAmount": 112500
+            }
+          ],
+          "standardDeduction": 40000,
+          "surcharge": [
+            {
+              "threshold": 5000000,
+              "rate": 0.1
+            },
+            {
+              "threshold": 10000000,
+              "rate": 0.15
+            },
+            {
+              "threshold": 20000000,
+              "rate": 0.25
+            },
+            {
+              "threshold": 50000000,
+              "rate": 0.37
+            }
+          ],
+          "rebate87A": {
+            "maxIncome": 350000,
+            "amount": 2500
+          },
+          "cess": 0.04
+        }
+      ]
+    },
+    {
+      "country": "IN",
+      "fiscalYear": "2017-2018",
+      "currency": "INR",
+      "defaultRegime": "old",
+      "regimes": [
+        {
+          "id": "old",
+          "label": "Old Regime",
+          "slabs": [
+            {
+              "min": 0,
+              "max": 250000,
+              "rate": 0,
+              "fixedAmount": 0
+            },
+            {
+              "min": 250000,
+              "max": 500000,
+              "rate": 0.05,
+              "fixedAmount": 0
+            },
+            {
+              "min": 500000,
+              "max": 1000000,
+              "rate": 0.2,
+              "fixedAmount": 12500
+            },
+            {
+              "min": 1000000,
+              "max": null,
+              "rate": 0.3,
+              "fixedAmount": 112500
+            }
+          ],
+          "standardDeduction": 0,
+          "surcharge": [
+            {
+              "threshold": 5000000,
+              "rate": 0.1
+            },
+            {
+              "threshold": 10000000,
+              "rate": 0.15
+            },
+            {
+              "threshold": 20000000,
+              "rate": 0.25
+            },
+            {
+              "threshold": 50000000,
+              "rate": 0.37
+            }
+          ],
+          "rebate87A": {
+            "maxIncome": 350000,
+            "amount": 2500
+          },
+          "cess": 0.04
+        }
+      ]
+    },
+    {
+      "country": "IN",
+      "fiscalYear": "2016-2017",
+      "currency": "INR",
+      "defaultRegime": "old",
+      "regimes": [
+        {
+          "id": "old",
+          "label": "Old Regime",
+          "slabs": [
+            {
+              "min": 0,
+              "max": 250000,
+              "rate": 0,
+              "fixedAmount": 0
+            },
+            {
+              "min": 250000,
+              "max": 500000,
+              "rate": 0.05,
+              "fixedAmount": 0
+            },
+            {
+              "min": 500000,
+              "max": 1000000,
+              "rate": 0.2,
+              "fixedAmount": 12500
+            },
+            {
+              "min": 1000000,
+              "max": null,
+              "rate": 0.3,
+              "fixedAmount": 112500
+            }
+          ],
+          "standardDeduction": 0,
+          "surcharge": [
+            {
+              "threshold": 5000000,
+              "rate": 0.1
+            },
+            {
+              "threshold": 10000000,
+              "rate": 0.15
+            },
+            {
+              "threshold": 20000000,
+              "rate": 0.25
+            },
+            {
+              "threshold": 50000000,
+              "rate": 0.37
+            }
+          ],
+          "rebate87A": {
+            "maxIncome": 500000,
+            "amount": 5000
+          },
+          "cess": 0.04
+        }
+      ]
+    },
+    {
+      "country": "IN",
+      "fiscalYear": "2015-2016",
+      "currency": "INR",
+      "defaultRegime": "old",
+      "regimes": [
+        {
+          "id": "old",
+          "label": "Old Regime",
+          "slabs": [
+            {
+              "min": 0,
+              "max": 250000,
+              "rate": 0,
+              "fixedAmount": 0
+            },
+            {
+              "min": 250000,
+              "max": 500000,
+              "rate": 0.05,
+              "fixedAmount": 0
+            },
+            {
+              "min": 500000,
+              "max": 1000000,
+              "rate": 0.2,
+              "fixedAmount": 12500
+            },
+            {
+              "min": 1000000,
+              "max": null,
+              "rate": 0.3,
+              "fixedAmount": 112500
+            }
+          ],
+          "standardDeduction": 0,
+          "surcharge": [
+            {
+              "threshold": 5000000,
+              "rate": 0.1
+            },
+            {
+              "threshold": 10000000,
+              "rate": 0.15
+            },
+            {
+              "threshold": 20000000,
+              "rate": 0.25
+            },
+            {
+              "threshold": 50000000,
+              "rate": 0.37
+            }
+          ],
+          "rebate87A": {
+            "maxIncome": 500000,
+            "amount": 2000
+          },
+          "cess": 0.04
+        }
+      ]
+    },
+    {
+      "country": "IN",
+      "fiscalYear": "2014-2015",
+      "currency": "INR",
+      "defaultRegime": "old",
+      "regimes": [
+        {
+          "id": "old",
+          "label": "Old Regime",
+          "slabs": [
+            {
+              "min": 0,
+              "max": 250000,
+              "rate": 0,
+              "fixedAmount": 0
+            },
+            {
+              "min": 250000,
+              "max": 500000,
+              "rate": 0.05,
+              "fixedAmount": 0
+            },
+            {
+              "min": 500000,
+              "max": 1000000,
+              "rate": 0.2,
+              "fixedAmount": 12500
+            },
+            {
+              "min": 1000000,
+              "max": null,
+              "rate": 0.3,
+              "fixedAmount": 112500
+            }
+          ],
+          "standardDeduction": 0,
+          "surcharge": [
+            {
+              "threshold": 5000000,
+              "rate": 0.1
+            },
+            {
+              "threshold": 10000000,
+              "rate": 0.15
+            },
+            {
+              "threshold": 20000000,
+              "rate": 0.25
+            },
+            {
+              "threshold": 50000000,
+              "rate": 0.37
+            }
+          ],
+          "rebate87A": {
+            "maxIncome": 500000,
+            "amount": 2000
+          },
+          "cess": 0.04
+        }
+      ]
+    }
+  ]
+}

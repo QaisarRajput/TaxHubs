@@ -1,0 +1,25 @@
+{
+  "name": "tax",
+  "private": true,
+  "packageManager": "pnpm@9.15.9",
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=9"
+  },
+  "scripts": {
+    "dev": "corepack pnpm --filter web dev",
+    "build": "corepack pnpm -r build",
+    "lint": "corepack pnpm -r lint",
+    "validate": "corepack pnpm --filter etl run validate",
+    "test": "corepack pnpm -r --if-present test",
+    "perf:js": "corepack pnpm --filter web run perf:js"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.4",
+    "eslint": "^9",
+    "prettier": "^3.8.4",
+    "typescript": "^5",
+    "typescript-eslint": "^8.62.0",
+    "vitest": "^4.1.9"
+  }
+}

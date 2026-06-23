@@ -1,0 +1,4 @@
+# Root .gitignore handles shared patterns; keep app-local ignores here.
+
+.vercel/
+next-env.d.ts

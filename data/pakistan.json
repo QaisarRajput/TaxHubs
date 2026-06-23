@@ -1,0 +1,889 @@
+{
+  "country": "PK",
+  "currency": "PKR",
+  "currencySymbol": "₨",
+  "locale": "ur-PK",
+  "years": [
+    {
+      "country": "PK",
+      "fiscalYear": "2026-2027",
+      "currency": "PKR",
+      "defaultRegime": "default",
+      "regimes": [
+        {
+          "id": "default",
+          "label": "Default",
+          "slabs": [
+            {
+              "min": 0,
+              "max": 600000,
+              "rate": 0,
+              "fixedAmount": 0
+            },
+            {
+              "min": 600000,
+              "max": 1200000,
+              "rate": 0.01,
+              "fixedAmount": 0
+            },
+            {
+              "min": 1200000,
+              "max": 2200000,
+              "rate": 0.11,
+              "fixedAmount": 6000
+            },
+            {
+              "min": 2200000,
+              "max": 3200000,
+              "rate": 0.2,
+              "fixedAmount": 116000
+            },
+            {
+              "min": 3200000,
+              "max": 4100000,
+              "rate": 0.25,
+              "fixedAmount": 316000
+            },
+            {
+              "min": 4100000,
+              "max": 5600000,
+              "rate": 0.29,
+              "fixedAmount": 541000
+            },
+            {
+              "min": 5600000,
+              "max": 7000000,
+              "rate": 0.32,
+              "fixedAmount": 976000
+            },
+            {
+              "min": 7000000,
+              "max": null,
+              "rate": 0.35,
+              "fixedAmount": 1424000
+            }
+          ],
+          "standardDeduction": 0,
+          "surcharge": [],
+          "rebate87A": null,
+          "cess": 0
+        }
+      ]
+    },
+    {
+      "country": "PK",
+      "fiscalYear": "2025-2026",
+      "currency": "PKR",
+      "defaultRegime": "default",
+      "regimes": [
+        {
+          "id": "default",
+          "label": "Default",
+          "slabs": [
+            {
+              "min": 0,
+              "max": 600000,
+              "rate": 0,
+              "fixedAmount": 0
+            },
+            {
+              "min": 600000,
+              "max": 1200000,
+              "rate": 0.01,
+              "fixedAmount": 0
+            },
+            {
+              "min": 1200000,
+              "max": 2200000,
+              "rate": 0.11,
+              "fixedAmount": 6000
+            },
+            {
+              "min": 2200000,
+              "max": 3200000,
+              "rate": 0.23,
+              "fixedAmount": 116000
+            },
+            {
+              "min": 3200000,
+              "max": 4100000,
+              "rate": 0.3,
+              "fixedAmount": 346000
+            },
+            {
+              "min": 4100000,
+              "max": null,
+              "rate": 0.35,
+              "fixedAmount": 616000
+            }
+          ],
+          "standardDeduction": 0,
+          "surcharge": [
+            {
+              "threshold": 10000000,
+              "rate": 0.09
+            }
+          ],
+          "rebate87A": null,
+          "cess": 0
+        }
+      ]
+    },
+    {
+      "country": "PK",
+      "fiscalYear": "2024-2025",
+      "currency": "PKR",
+      "defaultRegime": "default",
+      "regimes": [
+        {
+          "id": "default",
+          "label": "Default",
+          "slabs": [
+            {
+              "min": 0,
+              "max": 600000,
+              "rate": 0,
+              "fixedAmount": 0
+            },
+            {
+              "min": 600000,
+              "max": 1200000,
+              "rate": 0.05,
+              "fixedAmount": 0
+            },
+            {
+              "min": 1200000,
+              "max": 2200000,
+              "rate": 0.15,
+              "fixedAmount": 30000
+            },
+            {
+              "min": 2200000,
+              "max": 3200000,
+              "rate": 0.25,
+              "fixedAmount": 180000
+            },
+            {
+              "min": 3200000,
+              "max": 4100000,
+              "rate": 0.3,
+              "fixedAmount": 430000
+            },
+            {
+              "min": 4100000,
+              "max": null,
+              "rate": 0.35,
+              "fixedAmount": 700000
+            }
+          ],
+          "standardDeduction": 0,
+          "surcharge": [],
+          "rebate87A": null,
+          "cess": 0
+        }
+      ]
+    },
+    {
+      "country": "PK",
+      "fiscalYear": "2023-2024",
+      "currency": "PKR",
+      "defaultRegime": "default",
+      "regimes": [
+        {
+          "id": "default",
+          "label": "Default",
+          "slabs": [
+            {
+              "min": 0,
+              "max": 600000,
+              "rate": 0,
+              "fixedAmount": 0
+            },
+            {
+              "min": 600000,
+              "max": 1200000,
+              "rate": 0.025,
+              "fixedAmount": 0
+            },
+            {
+              "min": 1200000,
+              "max": 2200000,
+              "rate": 0.125,
+              "fixedAmount": 15000
+            },
+            {
+              "min": 2200000,
+              "max": 3200000,
+              "rate": 0.225,
+              "fixedAmount": 140000
+            },
+            {
+              "min": 3200000,
+              "max": 4100000,
+              "rate": 0.275,
+              "fixedAmount": 365000
+            },
+            {
+              "min": 4100000,
+              "max": null,
+              "rate": 0.35,
+              "fixedAmount": 612500
+            }
+          ],
+          "standardDeduction": 0,
+          "surcharge": [],
+          "rebate87A": null,
+          "cess": 0
+        }
+      ]
+    },
+    {
+      "country": "PK",
+      "fiscalYear": "2022-2023",
+      "currency": "PKR",
+      "defaultRegime": "default",
+      "regimes": [
+        {
+          "id": "default",
+          "label": "Default",
+          "slabs": [
+            {
+              "min": 0,
+              "max": 600000,
+              "rate": 0,
+              "fixedAmount": 0
+            },
+            {
+              "min": 600000,
+              "max": 1200000,
+              "rate": 0.025,
+              "fixedAmount": 0
+            },
+            {
+              "min": 1200000,
+              "max": 2400000,
+              "rate": 0.125,
+              "fixedAmount": 15000
+            },
+            {
+              "min": 2400000,
+              "max": 3600000,
+              "rate": 0.2,
+              "fixedAmount": 165000
+            },
+            {
+              "min": 3600000,
+              "max": 6000000,
+              "rate": 0.25,
+              "fixedAmount": 405000
+            },
+            {
+              "min": 6000000,
+              "max": 12000000,
+              "rate": 0.325,
+              "fixedAmount": 1005000
+            },
+            {
+              "min": 12000000,
+              "max": null,
+              "rate": 0.35,
+              "fixedAmount": 2955000
+            }
+          ],
+          "standardDeduction": 0,
+          "surcharge": [],
+          "rebate87A": null,
+          "cess": 0
+        }
+      ]
+    },
+    {
+      "country": "PK",
+      "fiscalYear": "2021-2022",
+      "currency": "PKR",
+      "defaultRegime": "default",
+      "regimes": [
+        {
+          "id": "default",
+          "label": "Default",
+          "slabs": [
+            {
+              "min": 0,
+              "max": 600000,
+              "rate": 0,
+              "fixedAmount": 0
+            },
+            {
+              "min": 600000,
+              "max": 1200000,
+              "rate": 0.05,
+              "fixedAmount": 0
+            },
+            {
+              "min": 1200000,
+              "max": 1800000,
+              "rate": 0.1,
+              "fixedAmount": 30000
+            },
+            {
+              "min": 1800000,
+              "max": 2500000,
+              "rate": 0.15,
+              "fixedAmount": 90000
+            },
+            {
+              "min": 2500000,
+              "max": 3500000,
+              "rate": 0.175,
+              "fixedAmount": 195000
+            },
+            {
+              "min": 3500000,
+              "max": 5000000,
+              "rate": 0.2,
+              "fixedAmount": 370000
+            },
+            {
+              "min": 5000000,
+              "max": 8000000,
+              "rate": 0.225,
+              "fixedAmount": 670000
+            },
+            {
+              "min": 8000000,
+              "max": 12000000,
+              "rate": 0.25,
+              "fixedAmount": 1345000
+            },
+            {
+              "min": 12000000,
+              "max": 30000000,
+              "rate": 0.275,
+              "fixedAmount": 2345000
+            },
+            {
+              "min": 30000000,
+              "max": null,
+              "rate": 0.3,
+              "fixedAmount": 7295000
+            }
+          ],
+          "standardDeduction": 0,
+          "surcharge": [],
+          "rebate87A": null,
+          "cess": 0
+        }
+      ]
+    },
+    {
+      "country": "PK",
+      "fiscalYear": "2020-2021",
+      "currency": "PKR",
+      "defaultRegime": "default",
+      "regimes": [
+        {
+          "id": "default",
+          "label": "Default",
+          "slabs": [
+            {
+              "min": 0,
+              "max": 600000,
+              "rate": 0,
+              "fixedAmount": 0
+            },
+            {
+              "min": 600000,
+              "max": 1200000,
+              "rate": 0.05,
+              "fixedAmount": 0
+            },
+            {
+              "min": 1200000,
+              "max": 1800000,
+              "rate": 0.1,
+              "fixedAmount": 30000
+            },
+            {
+              "min": 1800000,
+              "max": 2500000,
+              "rate": 0.15,
+              "fixedAmount": 90000
+            },
+            {
+              "min": 2500000,
+              "max": 3500000,
+              "rate": 0.175,
+              "fixedAmount": 195000
+            },
+            {
+              "min": 3500000,
+              "max": 5000000,
+              "rate": 0.2,
+              "fixedAmount": 370000
+            },
+            {
+              "min": 5000000,
+              "max": 8000000,
+              "rate": 0.225,
+              "fixedAmount": 670000
+            },
+            {
+              "min": 8000000,
+              "max": 12000000,
+              "rate": 0.25,
+              "fixedAmount": 1345000
+            },
+            {
+              "min": 12000000,
+              "max": 30000000,
+              "rate": 0.275,
+              "fixedAmount": 2345000
+            },
+            {
+              "min": 30000000,
+              "max": null,
+              "rate": 0.3,
+              "fixedAmount": 7295000
+            }
+          ],
+          "standardDeduction": 0,
+          "surcharge": [],
+          "rebate87A": null,
+          "cess": 0
+        }
+      ]
+    },
+    {
+      "country": "PK",
+      "fiscalYear": "2019-2020",
+      "currency": "PKR",
+      "defaultRegime": "default",
+      "regimes": [
+        {
+          "id": "default",
+          "label": "Default",
+          "slabs": [
+            {
+              "min": 0,
+              "max": 600000,
+              "rate": 0,
+              "fixedAmount": 0
+            },
+            {
+              "min": 600000,
+              "max": 1200000,
+              "rate": 0.05,
+              "fixedAmount": 0
+            },
+            {
+              "min": 1200000,
+              "max": 1800000,
+              "rate": 0.1,
+              "fixedAmount": 30000
+            },
+            {
+              "min": 1800000,
+              "max": 2500000,
+              "rate": 0.15,
+              "fixedAmount": 90000
+            },
+            {
+              "min": 2500000,
+              "max": 3500000,
+              "rate": 0.175,
+              "fixedAmount": 195000
+            },
+            {
+              "min": 3500000,
+              "max": 5000000,
+              "rate": 0.2,
+              "fixedAmount": 370000
+            },
+            {
+              "min": 5000000,
+              "max": 8000000,
+              "rate": 0.225,
+              "fixedAmount": 670000
+            },
+            {
+              "min": 8000000,
+              "max": 12000000,
+              "rate": 0.25,
+              "fixedAmount": 1345000
+            },
+            {
+              "min": 12000000,
+              "max": 30000000,
+              "rate": 0.275,
+              "fixedAmount": 2345000
+            },
+            {
+              "min": 30000000,
+              "max": null,
+              "rate": 0.3,
+              "fixedAmount": 7295000
+            }
+          ],
+          "standardDeduction": 0,
+          "surcharge": [],
+          "rebate87A": null,
+          "cess": 0
+        }
+      ]
+    },
+    {
+      "country": "PK",
+      "fiscalYear": "2018-2019",
+      "currency": "PKR",
+      "defaultRegime": "default",
+      "regimes": [
+        {
+          "id": "default",
+          "label": "Default",
+          "slabs": [
+            {
+              "min": 0,
+              "max": 400000,
+              "rate": 0,
+              "fixedAmount": 0
+            },
+            {
+              "min": 400000,
+              "max": 800000,
+              "rate": 0,
+              "fixedAmount": 1000
+            },
+            {
+              "min": 800000,
+              "max": 1200000,
+              "rate": 0,
+              "fixedAmount": 2000
+            },
+            {
+              "min": 1200000,
+              "max": 2500000,
+              "rate": 0.05,
+              "fixedAmount": 2000
+            },
+            {
+              "min": 2500000,
+              "max": 4000000,
+              "rate": 0.1,
+              "fixedAmount": 67000
+            },
+            {
+              "min": 4000000,
+              "max": 8000000,
+              "rate": 0.15,
+              "fixedAmount": 217000
+            },
+            {
+              "min": 8000000,
+              "max": 12000000,
+              "rate": 0.175,
+              "fixedAmount": 817000
+            },
+            {
+              "min": 12000000,
+              "max": null,
+              "rate": 0.2,
+              "fixedAmount": 1517000
+            }
+          ],
+          "standardDeduction": 0,
+          "surcharge": [],
+          "rebate87A": null,
+          "cess": 0
+        }
+      ]
+    },
+    {
+      "country": "PK",
+      "fiscalYear": "2017-2018",
+      "currency": "PKR",
+      "defaultRegime": "default",
+      "regimes": [
+        {
+          "id": "default",
+          "label": "Default",
+          "slabs": [
+            {
+              "min": 0,
+              "max": 400000,
+              "rate": 0,
+              "fixedAmount": 0
+            },
+            {
+              "min": 400000,
+              "max": 800000,
+              "rate": 0.02,
+              "fixedAmount": 0
+            },
+            {
+              "min": 800000,
+              "max": 1200000,
+              "rate": 0.05,
+              "fixedAmount": 8000
+            },
+            {
+              "min": 1200000,
+              "max": 2500000,
+              "rate": 0.1,
+              "fixedAmount": 28000
+            },
+            {
+              "min": 2500000,
+              "max": 4000000,
+              "rate": 0.15,
+              "fixedAmount": 158000
+            },
+            {
+              "min": 4000000,
+              "max": 8000000,
+              "rate": 0.175,
+              "fixedAmount": 383000
+            },
+            {
+              "min": 8000000,
+              "max": 12000000,
+              "rate": 0.2,
+              "fixedAmount": 1083000
+            },
+            {
+              "min": 12000000,
+              "max": 30000000,
+              "rate": 0.25,
+              "fixedAmount": 1883000
+            },
+            {
+              "min": 30000000,
+              "max": null,
+              "rate": 0.3,
+              "fixedAmount": 6383000
+            }
+          ],
+          "standardDeduction": 0,
+          "surcharge": [],
+          "rebate87A": null,
+          "cess": 0
+        }
+      ]
+    },
+    {
+      "country": "PK",
+      "fiscalYear": "2016-2017",
+      "currency": "PKR",
+      "defaultRegime": "default",
+      "regimes": [
+        {
+          "id": "default",
+          "label": "Default",
+          "slabs": [
+            {
+              "min": 0,
+              "max": 400000,
+              "rate": 0,
+              "fixedAmount": 0
+            },
+            {
+              "min": 400000,
+              "max": 800000,
+              "rate": 0.02,
+              "fixedAmount": 0
+            },
+            {
+              "min": 800000,
+              "max": 1200000,
+              "rate": 0.05,
+              "fixedAmount": 8000
+            },
+            {
+              "min": 1200000,
+              "max": 2500000,
+              "rate": 0.1,
+              "fixedAmount": 28000
+            },
+            {
+              "min": 2500000,
+              "max": 4000000,
+              "rate": 0.15,
+              "fixedAmount": 158000
+            },
+            {
+              "min": 4000000,
+              "max": 8000000,
+              "rate": 0.175,
+              "fixedAmount": 383000
+            },
+            {
+              "min": 8000000,
+              "max": 12000000,
+              "rate": 0.2,
+              "fixedAmount": 1083000
+            },
+            {
+              "min": 12000000,
+              "max": 30000000,
+              "rate": 0.25,
+              "fixedAmount": 1883000
+            },
+            {
+              "min": 30000000,
+              "max": null,
+              "rate": 0.3,
+              "fixedAmount": 6383000
+            }
+          ],
+          "standardDeduction": 0,
+          "surcharge": [],
+          "rebate87A": null,
+          "cess": 0
+        }
+      ]
+    },
+    {
+      "country": "PK",
+      "fiscalYear": "2015-2016",
+      "currency": "PKR",
+      "defaultRegime": "default",
+      "regimes": [
+        {
+          "id": "default",
+          "label": "Default",
+          "slabs": [
+            {
+              "min": 0,
+              "max": 400000,
+              "rate": 0,
+              "fixedAmount": 0
+            },
+            {
+              "min": 400000,
+              "max": 800000,
+              "rate": 0.03,
+              "fixedAmount": 0
+            },
+            {
+              "min": 800000,
+              "max": 1200000,
+              "rate": 0.07,
+              "fixedAmount": 12000
+            },
+            {
+              "min": 1200000,
+              "max": 2500000,
+              "rate": 0.12,
+              "fixedAmount": 40000
+            },
+            {
+              "min": 2500000,
+              "max": 4000000,
+              "rate": 0.17,
+              "fixedAmount": 196000
+            },
+            {
+              "min": 4000000,
+              "max": 8000000,
+              "rate": 0.22,
+              "fixedAmount": 451000
+            },
+            {
+              "min": 8000000,
+              "max": 12000000,
+              "rate": 0.24,
+              "fixedAmount": 1331000
+            },
+            {
+              "min": 12000000,
+              "max": 30000000,
+              "rate": 0.27,
+              "fixedAmount": 2291000
+            },
+            {
+              "min": 30000000,
+              "max": null,
+              "rate": 0.3,
+              "fixedAmount": 7151000
+            }
+          ],
+          "standardDeduction": 0,
+          "surcharge": [],
+          "rebate87A": null,
+          "cess": 0
+        }
+      ]
+    },
+    {
+      "country": "PK",
+      "fiscalYear": "2014-2015",
+      "currency": "PKR",
+      "defaultRegime": "default",
+      "regimes": [
+        {
+          "id": "default",
+          "label": "Default",
+          "slabs": [
+            {
+              "min": 0,
+              "max": 400000,
+              "rate": 0,
+              "fixedAmount": 0
+            },
+            {
+              "min": 400000,
+              "max": 800000,
+              "rate": 0.03,
+              "fixedAmount": 0
+            },
+            {
+              "min": 800000,
+              "max": 1200000,
+              "rate": 0.07,
+              "fixedAmount": 12000
+            },
+            {
+              "min": 1200000,
+              "max": 2500000,
+              "rate": 0.12,
+              "fixedAmount": 40000
+            },
+            {
+              "min": 2500000,
+              "max": 4000000,
+              "rate": 0.17,
+              "fixedAmount": 196000
+            },
+            {
+              "min": 4000000,
+              "max": 8000000,
+              "rate": 0.22,
+              "fixedAmount": 451000
+            },
+            {
+              "min": 8000000,
+              "max": 12000000,
+              "rate": 0.24,
+              "fixedAmount": 1331000
+            },
+            {
+              "min": 12000000,
+              "max": 30000000,
+              "rate": 0.27,
+              "fixedAmount": 2291000
+            },
+            {
+              "min": 30000000,
+              "max": null,
+              "rate": 0.3,
+              "fixedAmount": 7151000
+            }
+          ],
+          "standardDeduction": 0,
+          "surcharge": [],
+          "rebate87A": null,
+          "cess": 0
+        }
+      ]
+    }
+  ]
+}
