@@ -43,17 +43,15 @@ export function PreviousYearsTaxSparkline({
 }: PreviousYearsTaxSparklineProps) {
   const [hoveredYear, setHoveredYear] = useState<string | null>(null);
 
-  if (points.length === 0) {
-    return null;
-  }
+  const safePoints = points.length > 0 ? points : [{ year: '', monthlyTax: 0 }];
 
   const chartWidth = 860;
   const chartHeight = 280;
   const margin = { top: 16, right: 16, bottom: 68, left: 72 };
   const innerWidth = chartWidth - margin.left - margin.right;
   const innerHeight = chartHeight - margin.top - margin.bottom;
-  const minValue = Math.min(...points.map((point) => point.monthlyTax));
-  const maxValue = Math.max(...points.map((point) => point.monthlyTax));
+  const minValue = Math.min(...safePoints.map((point) => point.monthlyTax));
+  const maxValue = Math.max(...safePoints.map((point) => point.monthlyTax));
   const paddedMin = Math.max(0, minValue * 0.9);
   const paddedMax = maxValue * 1.1;
   const valueRange = Math.max(1, paddedMax - paddedMin);
@@ -78,6 +76,11 @@ export function PreviousYearsTaxSparkline({
 
   const hoveredPoint =
     (hoveredYear ? coordinates.find((point) => point.year === hoveredYear) : null) ?? null;
+
+  if (points.length === 0) {
+    return null;
+  }
+
   return (
     <section className="rounded-card border border-border bg-surface p-3 sm:p-4">
       <div className="flex flex-wrap items-center justify-between gap-2">
