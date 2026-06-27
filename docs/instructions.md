@@ -316,25 +316,7 @@ When redistributing community-contributed content:
 - **Test framework:** Vitest. Snapshot tests for parsers against real saved fixture data. Unit tests for schema validation and ID-derivation logic.
 
 ---
-
-## 15. Implementation plan format
-
-When asked to produce an implementation plan for a project matching this pattern, structure it as follows:
-
-1. **§0 Source / data validation** — verify the upstream source before designing. Record confirmed facts that constrain the design (entry format, ID strategy, field locations, license).
-2. **§0.N — How [specific constraint] is resolved** — for any non-obvious constraint, add a dedicated sub-section explaining the exact mechanism before listing tasks.
-3. **Guiding principles** — enumerate the non-negotiable rules for the project.
-4. **Design system spec** — token values, theme strategy, typography, motion rules. Written before component tasks.
-5. **Phases** — each phase is a flat list of checkboxes. One task = one checkbox. No nested subtasks more than one level deep.
-6. **Definition of done** — one checkbox per phase milestone. What "done" means must be observable (deployed URL, green CI, verified feature).
-7. **Open questions** — unresolved decisions that would block implementation. Mark resolved ones inline as they are answered.
-8. **Immediate next steps** — the 5–7 actions needed right now to unblock Phase 1.
-
-Checkbox states: `[ ]` not started · `[~]` in progress · `[x]` complete.
-
----
-
-## 16. PWA home-screen readiness template (Android-first)
+## 15. PWA home-screen readiness template (Android-first)
 
 When users should install the website to the Android home screen, treat this as a required deliverable, not optional polish.
 
@@ -372,3 +354,23 @@ When users should install the website to the Android home screen, treat this as 
 **Agent behavior requirement:**
 - If the user asks for home-screen install quality, always implement this full checklist by default.
 - If any item cannot be implemented with available tools, state the blocker and propose the exact fallback.
+
+---
+
+## 16. Implementation plan format
+
+When asked to produce an implementation plan for a project matching this pattern, structure it as follows:
+
+1. **§0 Source / data validation** — verify the upstream source before designing. Record confirmed facts that constrain the design (entry format, ID strategy, field locations, license).
+2. **§0.N — How [specific constraint] is resolved** — for any non-obvious constraint, add a dedicated sub-section explaining the exact mechanism before listing tasks.
+3. **Guiding principles** — enumerate the non-negotiable rules for the project.
+4. **Design system spec** — token values, theme strategy, typography, motion rules. Written before component tasks.
+5. **Phases** — each phase is a flat list of checkboxes. One task = one checkbox. No nested subtasks more than one level deep.
+6. **Definition of done** — one checkbox per phase milestone. What "done" means must be observable (deployed URL, green CI, verified feature).
+7. **Open questions** — unresolved decisions that would block implementation. Mark resolved ones inline as they are answered.
+8. **Immediate next steps** — the 5–7 actions needed right now to unblock Phase 1.
+
+Checkbox states: `[ ]` not started · `[~]` in progress · `[x]` complete.
+
+
+
